@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		شركة الدور المتقدمة
+	</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel='stylesheet'
+   href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+
+</head>
+<body>
+<!---Start main part---->
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo2.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">الرئيسية</a></li>
+					<li><a href="">شركاتنا</a></li>
+					<li><a href="">خدماتنا</a></li>
+					<li><a href="">مجلس الإدارة</a></li>
+					<li><a href="">من نحن</a></li>
+					<li><a href="">English</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<div class="text-box">
+			<h1>شركة الدور المتقدمة</h1>
+			<p>
+				 أول شركة مساهمة مقفلة تنطلق من #العلا تُعنى بالاستثمار في قطاعات الضيافة - النقل - البيئة
+			</p>
+			<a href="" class="hero-btn">تواصل معنا</a>
+		</div>
+	</section>
+<!---End main part---->
+<!--- Start Our Company part--->
+	<section class="company">
+		<h1>شركاتنا</h1>
+
+		<div class="row">
+			<div class="company-col">
+				<img src="images/AlDoorEs.jpg">
+			</div>
+			<div class="company-col">
+				<img src="images/AldoorTran.jpg">
+			</div>
+			<div class="company-col">
+				<img src="images/AlDoor Hotels.jpg">
+			</div>
+		</div>
+		
+	</section>
+<!---End Our Company part--->
+<!---Start project part---->
+	<section class="project">
+		<h1>خدماتنا</h1>
+		<p>تسعى الشركة منذ أن تأسست لتحقيق أهدافها والوصول إلى المستوى المطلوب لنيل رضى العملاء  <br><br> كما تلتزم الشركة بالتحسين المستمر في قطاعاتها وتقديم خدمات مميزة و عالية الجودة
+		</p>
+		
+		<div class="row">
+			<div class="proj-col">
+				<h1>البيئة</h1>
+			</div>
+			<div class="proj-col">
+				<h1>النقل</h1>
+			</div>
+			<div class="proj-col">
+				<h1>الضيافة</h1>
+			</div>
+		</div>
+
+	</section>
+<!---End project part---->
+
+<!---Start about part---->
+	<section class="about">
+		<h1>مجلس الإدارة</h1>
+		<p>	
+		</p>
+
+		<div class="row">
+			<div class="aboutcol">
+				<img src="images/p3.jpg">
+				<div class="layer">
+					<h3>Name - position</h3>
+				</div>
+			</div>
+			<div class="aboutcol">
+				<img src="images/p2.jpg">
+				<div class="layer">
+					<h3>Name - position</h3>
+				</div>
+			</div>
+			<div class="aboutcol">
+				<img src="images/p1.jpg">
+				<div class="layer">
+					<h3>Name - position</h3>
+				</div>
+			</div>
+
+		</div>
+	</section>
+<!---End about part---->
+
+
+<!-----start Footer------>
+	<section class="footer">
+		<h4>تجدوننا على وسائل التواصل التالية</h4>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>جميع الحقوق محفوظة لشركة الدور المتقدمة <i class="fa fa-at"></i></p>
+	</section>
+<!-----End Footer------>
+
+<!-----JavaScript for Toggle menu------>
+<script>
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+</body>
+</html>
